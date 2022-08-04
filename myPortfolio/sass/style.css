@@ -1,0 +1,227 @@
+.firstpage {
+  width: 100%;
+  height: 800;
+  background-color: #0B041A;
+}
+.firstpage .main {
+  width: 100%;
+  height: 190px;
+}
+.firstpage .main #maintext {
+  width: 45%;
+  float: left;
+  padding: 175px 0px 20px 80px;
+}
+.firstpage .main #image {
+  width: 40%;
+  float: right;
+  padding-right: 100px;
+}
+.firstpage ul {
+  text-align: center;
+}
+.firstpage .nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 30px;
+  color: fff;
+  font-size: 20px;
+}
+.firstpage h3 {
+  color: fff;
+  font-size: 34px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0px 100px 5px 0px;
+  float: left;
+}
+.firstpage span {
+  color: #CB9509;
+  font-weight: 800;
+}
+.firstpage .main img {
+  float: right;
+  padding: 5px 10px 10px 60px;
+  border-radius: 50%;
+}
+.firstpage .main li {
+  list-style-type: none;
+  display: inline-block;
+}
+.firstpage .main button {
+  background-color: #CB9509;
+  color: fff;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+}
+.firstpage .main .buttons {
+  padding: 50px 30px 20px 60px;
+}
+
+#about h2 {
+  color: #CB9509;
+  font-size: 48;
+  font-weight: bold;
+  text-align: center;
+}
+#about p {
+  color: #33312C;
+  font-size: 40;
+  text-align: center;
+}
+#about button {
+  padding: 10px 50px;
+  background-color: #0B041A;
+  border-radius: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+#about .abt {
+  padding-left: 45%;
+  padding-bottom: 100px;
+}
+#about .skills {
+  width: 600px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #ECE6F9;
+  border-radius: 30px;
+  padding-left: 50px;
+  float: right;
+}
+#about li {
+  font-size: 30px;
+  color: #33312C;
+  padding-left: 24px;
+}
+#about .second {
+  float: right;
+}
+#about .sk {
+  padding: 30px 50px 50px 50px;
+}
+#about #left {
+  float: left;
+  width: 200px;
+}
+#about #right {
+  float: right;
+  width: 200px;
+}
+
+.education {
+  width: 40%;
+  height: 50%;
+  background-color: #ECE6F9;
+  border-radius: 30px;
+  padding-left: 30px;
+}
+
+.ed {
+  padding: 30px 50px 50px 50px;
+}
+
+#contact {
+  width: 100%;
+  height: 190px;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#contact h2 {
+  font-size: 48;
+  font-weight: bold;
+  text-align: center;
+  color: #33312C;
+}
+#contact form input {
+  width: 600px;
+  border-radius: 10px;
+  padding: 12px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #ECE6F9;
+}
+#contact form textarea {
+  width: 600px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 8px 0;
+  background-color: #ECE6F9;
+}
+#contact form button {
+  background-color: #0B041A;
+  color: fff;
+  padding: 10px 50px;
+  text-align: centre;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+#contact form #btn {
+  padding: 4% 30%;
+}
+#contact .socials {
+  float: right;
+  width: 45%;
+  height: 160px;
+}
+#contact .socials p {
+  color: #CB9509;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+#contact .socials li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+}
+#contact .socials img {
+  width: 50px;
+  height: 50px;
+}
+#contact .socials h5 {
+  color: #33312C;
+  font-size: 24px;
+  text-align: center;
+}
+#contact .socials #copy {
+  font-size: 15px;
+  text-align: right;
+  color: #33312C;
+}
+#contact .socials #pad {
+  text-align: center;
+}
+
+.forms {
+  float: left;
+  width: 45%;
+  height: 160px;
+  padding-left: 30px;
+  padding-top: 70px;
+}
+
+a:link {
+  text-decoration: none;
+  color: fff;
+}
+
+a:visited {
+  text-decoration: none;
+  color: fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #CB9509;
+}
+
+a:active {
+  text-decoration: none;
+  color: #FCFAED;
+}/*# sourceMappingURL=style.css.map */
