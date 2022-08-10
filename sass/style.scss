@@ -61,12 +61,12 @@ $skill_background: #ECE6F9;
             @include responsive (tab-port){
                 padding-right: 100px;
                 text-align: center;
-                float: centre;
+
              }
             
              @include responsive (phone) {
-                padding-right: 50px;
-                float: centre;
+                padding: 5px;
+                text-align: center;
              }
              @include responsive (big-desktop) {
                 float: right;
@@ -276,15 +276,15 @@ $skill_background: #ECE6F9;
         width: 600px;
         height: fit-content;
         background-color: $skill_background;
+        border-radius: 30px;
         padding-left: 50px;
 
         @include responsive (tab-land){
             font-size: 28px;
             float: left;
-            border-radius: 30px;
          }
          @include responsive (bgtab-port){
-            width: 400px;
+            width: 350px;
             height: fit-content;
             background-color: $skill_background;
             border-radius: 30px;
@@ -296,36 +296,42 @@ $skill_background: #ECE6F9;
             height: fit-content;
             background-color: $skill_background;
             float: right;
-            border-radius: 30px;
          }
          @include responsive (phone){
             width: 100%;
             height: fit-content;
             background-color: $skill_background;
-            padding-left: 3px;
+            padding: 5px;
          }
          @include responsive (big-desktop){
             width: 650px;
              font-size: 34px;
              float: left;
-             border-radius: 30px;
          }
     }
 
     li {
         font-size: 30px;
         color: #33312C ;
-        padding-left: 24px;
 
         @include responsive (phone){
-            font-size: 8px;
+            font-size: 15px;
         }
         @include responsive (tab-port) {
             font-size: 20px;
             padding: 5px 50px 10px 50px;
         }
+        @include responsive (bgtab-port) {
+            font-size: 20px;
+            padding: 5px 10px 10px 10px;
+        }
+        @include responsive (tab-land){
+            font-size: 30px;
+            padding-left: 50px;
+        }
         @include responsive (big-desktop){
             font-size: 30px;
+            padding: 20px;
         }
     }
 
@@ -350,6 +356,12 @@ $skill_background: #ECE6F9;
             float: left;
 
         }
+        @include responsive (tab-port){
+            float: left;
+        }
+        @include responsive (bgtab-port) {
+            float: left;
+        }
        
     }
 
@@ -360,14 +372,16 @@ $skill_background: #ECE6F9;
         @include responsive (big-desktop){
             float: right;
         }
+        @include responsive (tab-port){
+            float: right;
+        }
+        @include responsive (bgtab-port) {
+            float: right;
+        }
     }
 }
 
 .education {
-    width: 600px;
-    height: fit-content;
-    background-color: $skill_background;
-    padding: 20px 30px;
 
     @include responsive (tab-land){
         width: 450px;
@@ -378,18 +392,8 @@ $skill_background: #ECE6F9;
         float: right;
 
     }
-
-
-
-    @include responsive (tab-land){
-        width: 400px;
-        height: fit-content;
-        background-color: $skill_background;
-        border-radius: 25px;
-        padding-left: 25px;
-     }
      @include responsive (bgtab-port){
-        width: 400px;
+        width: 350px;
         height: fit-content;
         background-color: $skill_background;
         border-radius: 25px;
@@ -407,9 +411,9 @@ $skill_background: #ECE6F9;
         width: 100%;
         height: fit-content;
         background-color: $skill_background;
-        padding-left: 5px;
-        padding-bottom: 5px;
-        padding-top: 5px;
+        border-radius: 30px;
+        padding: 5px;
+       
      }
      @include responsive (big-desktop){
         width: 600px;
@@ -426,10 +430,16 @@ $skill_background: #ECE6F9;
 .ed {
     padding: 30px 50px 50px 50px;
     @include responsive (phone){
-        padding: 400px 40px 30px 5px;
+        padding: 20px 40px 20px 5px;
     }
     @include responsive (tab-port){
         padding: 400px 60px 20px 5px;
+    }
+    @include responsive (bgtab-port){
+        padding: 20px 30px 10px 5px;
+    }
+    @include responsive (tab-land){
+        padding: 30px 30px 10px 10px;
     }
 
 }
@@ -441,10 +451,6 @@ $skill_background: #ECE6F9;
     padding-left:15px;
     padding-right:15px;
 
-    @include responsive (phone){
-        padding-top: 30px;
-    }
-
     @include responsive (bgtab-port){
         padding-top: 200px;
     }
@@ -454,11 +460,29 @@ $skill_background: #ECE6F9;
 
 
     h2 {
+        font-weight: bold;
+        text-align: center;
+        color: #33312C;
+
         @include responsive (phone){
-            font-size: 20px;
-            font-weight: bold;
+            font-size: 15px;
+        }
+        
+        @include responsive (tab-port){
+            font-size: 35px;
+        }
+        @include responsive (bgtab-port){
+            font-size: 40px;
+            padding-top: 100px;
+        }
+        @include responsive (tab-land){
+            font-size: 40px;
+            padding-top: 300px;
+        }
+        @include responsive (big-desktop){
+            font-size: 48;
+            padding: 100px;
             text-align: center;
-            color: #33312C;
         }
     }
 
@@ -509,19 +533,24 @@ $skill_background: #ECE6F9;
             font-size: 15px;
             font-weight: 500;
             border-radius: 10px;
-            @include responsive (phone){
-                padding: 8px 20px;
+            @include responsive (phone) {
+                padding: 10px 30px;
                 font-size: 10px;
             }
-
 
         }
 
         #btn {
+            padding: 4% 30%;
             @include responsive (phone){
                 padding: 20px 15px;
             }
-            
+            @include responsive (tab-port){
+                padding: 25px 70px;
+            }
+            @include responsive (bgtab-port){
+                padding: 25px 90px;
+            }
         }
     }
 
@@ -531,52 +560,81 @@ $skill_background: #ECE6F9;
         height:160px;
         padding-right: 10px;
         @include responsive (phone){
-            padding-top: 10px;
+            padding-top: 15px;
         }
        
     
         p {
-            
+            color: $secondary_color;
+            font-weight: 600;
+            font-size: 30px;
+            text-align: center;
             @include responsive (phone){
-                font-size: 18px;
+                font-size: 15px;
                 font-weight: 200;
-                color: $secondary_color;
             }
-           
+            @include responsive (tab-port){
+                font-size: 24px;
+            }
+            @include responsive (bgtab-port){
+                font-size: 30px;
+            }
         }
     
         li {
             list-style-type: none;
             display: inline-block;
             padding: 20px;
-            @include responsive (phone){
+            @include responsive (phone) {
                 padding: 5px;
-            
             }
 
         }
 
         img {
+            width: 50px;
+            height: 50px;
 
             @include responsive (phone){
-                width: 15px;
-                height: 15px;
+                width: 20px;
+                height: 20px;
+            
+            }
+            @include responsive (tab-port){
+                width: 25px;
+                height: 25px;
+            
+            }
+            @include responsive (bgtab-port){
+                width: 25px;
+                height: 25px;
             
             }
         }
 
         h5 {
+            color: #33312C;
+            font-size: 24px;
+            text-align: center;
+
             @include responsive (phone){
-                font-size: 12px;
-                color: #33312C;
-                text-align: center;
+                font-size: 15px;
+            }
+            @include responsive (tab-port){
+                font-size: 18px;
             }
         }
         #copy {
+            font-size: 15px;
+            text-align: right;
+            color: #33312C;
+
             @include responsive (phone){
-                font-size: 6px;
-                text-align: right;
-                color: #33312C;
+                font-size: 8px;
+                padding-top: 80px;
+            }
+            @include responsive (tab-port){
+                font-size: 10px;
             }
 
         }

@@ -3,17 +3,17 @@
   height: 800;
   background-color: #0B041A;
 }
-@media only screen and (max-width: 1550px) {
+@media only screen and (min-width: 1236px) and (max-width: 1550px) {
   .firstpage {
     height: 700px;
   }
 }
-@media only screen and (max-width: 1235px) {
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
   .firstpage {
     height: 550px;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
   .firstpage {
     height: 700px;
   }
@@ -28,18 +28,18 @@
     height: 650px;
   }
 }
-@media only screen and (max-width: 1550px) {
+@media only screen and (min-width: 1236px) and (max-width: 1550px) {
   .firstpage .main #maintext {
     padding: 140px 0px 20px 60px;
   }
 }
-@media only screen and (max-width: 1235px) {
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
   .firstpage .main #maintext {
     padding: 100px 0px 20px 50px;
     float: left;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
   .firstpage .main #maintext {
     padding: 20px 0px 20px 110px;
   }
@@ -55,29 +55,28 @@
     float: left;
   }
 }
-@media only screen and (max-width: 1550px) {
+@media only screen and (min-width: 1236px) and (max-width: 1550px) {
   .firstpage .main #image {
     float: right;
     padding-right: 30px;
   }
 }
-@media only screen and (max-width: 1235px) {
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
   .firstpage .main #image {
     padding: 10px;
     float: right;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
   .firstpage .main #image {
     padding-right: 100px;
     text-align: center;
-    float: centre;
   }
 }
 @media only screen and (max-width: 600px) {
   .firstpage .main #image {
-    padding-right: 50px;
-    float: centre;
+    padding: 5px;
+    text-align: center;
   }
 }
 @media only screen and (min-width: 1800px) {
@@ -95,13 +94,13 @@
   padding: 30px;
   color: fff;
 }
-@media only screen and (max-width: 1550px) {
+@media only screen and (min-width: 1236px) and (max-width: 1550px) {
   .firstpage .nav li {
     font-size: 17px;
     padding: 25px;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
   .firstpage .nav li {
     font-size: 15px;
     padding: 20px;
@@ -126,17 +125,17 @@
   text-align: center;
   padding: 0px 100px 5px 0px;
 }
-@media only screen and (max-width: 1550px) {
+@media only screen and (min-width: 1236px) and (max-width: 1550px) {
   .firstpage h3 {
     font-size: 28px;
   }
 }
-@media only screen and (max-width: 1235px) {
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
   .firstpage h3 {
     font-size: 20px;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
   .firstpage h3 {
     font-size: 24px;
     text-align: center;
@@ -161,14 +160,14 @@
 .firstpage .main img {
   border-radius: 50%;
 }
-@media only screen and (max-width: 1550px) {
+@media only screen and (min-width: 1236px) and (max-width: 1550px) {
   .firstpage .main img {
     width: 500px;
     height: 500px;
     padding: 5px 10px;
   }
 }
-@media only screen and (max-width: 1235px) {
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
   .firstpage .main img {
     width: 270px;
     height: 270px;
@@ -176,7 +175,7 @@
     border-radius: 50%;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
   .firstpage .main img {
     width: 250px;
     height: 300px;
@@ -211,18 +210,18 @@
 .firstpage .main .buttons {
   padding: 50px 30px 20px 60px;
 }
-@media only screen and (max-width: 1550px) {
+@media only screen and (min-width: 1236px) and (max-width: 1550px) {
   .firstpage .main .buttons {
     padding: 40px 25px 15px 210px;
   }
 }
-@media only screen and (max-width: 1235px) {
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
   .firstpage .main .buttons {
     font-size: 24px;
     padding: 50px 30px 20px 60px;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
   .firstpage .main .buttons {
     padding: 15px 50px;
   }
@@ -249,12 +248,12 @@
     font-size: 30px;
   }
 }
-@media only screen and (max-width: 1550px) {
+@media only screen and (min-width: 1236px) and (max-width: 1550px) {
   #about h2 {
     font-size: 35px;
   }
 }
-@media only screen and (max-width: 1235px) {
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
   #about h2 {
     font-size: 40px;
   }
@@ -269,17 +268,17 @@
     font-size: 20px;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
   #about p {
     font-size: 25px;
   }
 }
-@media only screen and (max-width: 1235px) {
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
   #about p {
     font-size: 30px;
   }
 }
-@media only screen and (max-width: 1550px) {
+@media only screen and (min-width: 1236px) and (max-width: 1550px) {
   #about p {
     font-size: 35px;
   }
@@ -301,7 +300,7 @@
     padding-bottom: 50px;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
   #about .abt {
     padding-left: 35%;
     padding-bottom: 15%;
@@ -313,18 +312,18 @@
   height: -moz-fit-content;
   height: fit-content;
   background-color: #ECE6F9;
+  border-radius: 30px;
   padding-left: 50px;
 }
-@media only screen and (max-width: 1550px) {
+@media only screen and (min-width: 1236px) and (max-width: 1550px) {
   #about .skills {
     font-size: 28px;
     float: left;
-    border-radius: 30px;
   }
 }
-@media only screen and (max-width: 1235px) {
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
   #about .skills {
-    width: 400px;
+    width: 350px;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -334,7 +333,7 @@
     float: left;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
   #about .skills {
     width: 100%;
     height: -webkit-fit-content;
@@ -342,7 +341,6 @@
     height: fit-content;
     background-color: #ECE6F9;
     float: right;
-    border-radius: 30px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -352,7 +350,7 @@
     height: -moz-fit-content;
     height: fit-content;
     background-color: #ECE6F9;
-    padding-left: 3px;
+    padding: 5px;
   }
 }
 @media only screen and (min-width: 1800px) {
@@ -360,28 +358,39 @@
     width: 650px;
     font-size: 34px;
     float: left;
-    border-radius: 30px;
   }
 }
 #about li {
   font-size: 30px;
   color: #33312C;
-  padding-left: 24px;
 }
 @media only screen and (max-width: 600px) {
   #about li {
-    font-size: 8px;
+    font-size: 15px;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
   #about li {
     font-size: 20px;
     padding: 5px 50px 10px 50px;
   }
 }
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
+  #about li {
+    font-size: 20px;
+    padding: 5px 10px 10px 10px;
+  }
+}
+@media only screen and (min-width: 1236px) and (max-width: 1550px) {
+  #about li {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+}
 @media only screen and (min-width: 1800px) {
   #about li {
     font-size: 30px;
+    padding: 20px;
   }
 }
 #about .second {
@@ -400,7 +409,7 @@
     padding: 5px 5px 30px 5px;
   }
 }
-@media only screen and (max-width: 1550px) {
+@media only screen and (min-width: 1236px) and (max-width: 1550px) {
   #about #left {
     float: left;
   }
@@ -410,7 +419,17 @@
     float: left;
   }
 }
-@media only screen and (max-width: 1550px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  #about #left {
+    float: left;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
+  #about #left {
+    float: left;
+  }
+}
+@media only screen and (min-width: 1236px) and (max-width: 1550px) {
   #about #right {
     float: left;
   }
@@ -420,16 +439,18 @@
     float: right;
   }
 }
-
-.education {
-  width: 600px;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  background-color: #ECE6F9;
-  padding: 20px 30px;
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  #about #right {
+    float: right;
+  }
 }
-@media only screen and (max-width: 1550px) {
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
+  #about #right {
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 1236px) and (max-width: 1550px) {
   .education {
     width: 450px;
     height: -webkit-fit-content;
@@ -441,20 +462,9 @@
     float: right;
   }
 }
-@media only screen and (max-width: 1550px) {
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
   .education {
-    width: 400px;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    background-color: #ECE6F9;
-    border-radius: 25px;
-    padding-left: 25px;
-  }
-}
-@media only screen and (max-width: 1235px) {
-  .education {
-    width: 400px;
+    width: 350px;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -464,7 +474,7 @@
     float: right;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
   .education {
     width: 100%;
     height: -webkit-fit-content;
@@ -482,9 +492,8 @@
     height: -moz-fit-content;
     height: fit-content;
     background-color: #ECE6F9;
-    padding-left: 5px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    border-radius: 30px;
+    padding: 5px;
   }
 }
 @media only screen and (min-width: 1800px) {
@@ -507,12 +516,22 @@
 }
 @media only screen and (max-width: 600px) {
   .ed {
-    padding: 400px 40px 30px 5px;
+    padding: 20px 40px 20px 5px;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
   .ed {
     padding: 400px 60px 20px 5px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
+  .ed {
+    padding: 20px 30px 10px 5px;
+  }
+}
+@media only screen and (min-width: 1236px) and (max-width: 1550px) {
+  .ed {
+    padding: 30px 30px 10px 10px;
   }
 }
 
@@ -523,12 +542,7 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-@media only screen and (max-width: 600px) {
-  #contact {
-    padding-top: 30px;
-  }
-}
-@media only screen and (max-width: 1235px) {
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
   #contact {
     padding-top: 200px;
   }
@@ -538,12 +552,38 @@
     padding-top: 190px;
   }
 }
+#contact h2 {
+  font-weight: bold;
+  text-align: center;
+  color: #33312C;
+}
 @media only screen and (max-width: 600px) {
   #contact h2 {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  #contact h2 {
+    font-size: 35px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
+  #contact h2 {
+    font-size: 40px;
+    padding-top: 100px;
+  }
+}
+@media only screen and (min-width: 1236px) and (max-width: 1550px) {
+  #contact h2 {
+    font-size: 40px;
+    padding-top: 300px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  #contact h2 {
+    font-size: 48;
+    padding: 100px;
     text-align: center;
-    color: #33312C;
   }
 }
 #contact form input {
@@ -559,12 +599,12 @@
     width: 100%;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
   #contact form input {
     width: 100%;
   }
 }
-@media only screen and (max-width: 1235px) {
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
   #contact form input {
     width: 100%;
   }
@@ -581,12 +621,12 @@
     width: 100%;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
   #contact form textarea {
     width: 100%;
   }
 }
-@media only screen and (max-width: 1235px) {
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
   #contact form textarea {
     width: 100%;
   }
@@ -602,13 +642,26 @@
 }
 @media only screen and (max-width: 600px) {
   #contact form button {
-    padding: 8px 20px;
+    padding: 10px 30px;
     font-size: 10px;
   }
+}
+#contact form #btn {
+  padding: 4% 30%;
 }
 @media only screen and (max-width: 600px) {
   #contact form #btn {
     padding: 20px 15px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  #contact form #btn {
+    padding: 25px 70px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
+  #contact form #btn {
+    padding: 25px 90px;
   }
 }
 #contact .socials {
@@ -619,14 +672,29 @@
 }
 @media only screen and (max-width: 600px) {
   #contact .socials {
-    padding-top: 10px;
+    padding-top: 15px;
   }
+}
+#contact .socials p {
+  color: #CB9509;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
 }
 @media only screen and (max-width: 600px) {
   #contact .socials p {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 200;
-    color: #CB9509;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  #contact .socials p {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
+  #contact .socials p {
+    font-size: 30px;
   }
 }
 #contact .socials li {
@@ -639,24 +707,57 @@
     padding: 5px;
   }
 }
+#contact .socials img {
+  width: 50px;
+  height: 50px;
+}
 @media only screen and (max-width: 600px) {
   #contact .socials img {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
   }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  #contact .socials img {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1235px) {
+  #contact .socials img {
+    width: 25px;
+    height: 25px;
+  }
+}
+#contact .socials h5 {
+  color: #33312C;
+  font-size: 24px;
+  text-align: center;
 }
 @media only screen and (max-width: 600px) {
   #contact .socials h5 {
-    font-size: 12px;
-    color: #33312C;
-    text-align: center;
+    font-size: 15px;
   }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  #contact .socials h5 {
+    font-size: 18px;
+  }
+}
+#contact .socials #copy {
+  font-size: 15px;
+  text-align: right;
+  color: #33312C;
 }
 @media only screen and (max-width: 600px) {
   #contact .socials #copy {
-    font-size: 6px;
-    text-align: right;
-    color: #33312C;
+    font-size: 8px;
+    padding-top: 80px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  #contact .socials #copy {
+    font-size: 10px;
   }
 }
 #contact .socials #pad {
