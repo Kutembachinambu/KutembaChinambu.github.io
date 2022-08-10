@@ -296,7 +296,7 @@
 }
 @media only screen and (max-width: 600px) {
   #about .abt {
-    padding-left: 20%;
+    padding-left: 21%;
     padding-bottom: 50px;
   }
 }
@@ -351,6 +351,7 @@
     height: fit-content;
     background-color: #ECE6F9;
     padding: 5px;
+    float: left;
   }
 }
 @media only screen and (min-width: 1800px) {
@@ -372,7 +373,7 @@
 @media only screen and (min-width: 601px) and (max-width: 900px) {
   #about li {
     font-size: 20px;
-    padding: 5px 50px 10px 50px;
+    padding: 5px 10px;
   }
 }
 @media only screen and (min-width: 901px) and (max-width: 1235px) {
@@ -427,6 +428,16 @@
 @media only screen and (min-width: 901px) and (max-width: 1235px) {
   #about #left {
     float: left;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #about #left {
+    float: left;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #about #right {
+    float: right;
   }
 }
 @media only screen and (min-width: 1236px) and (max-width: 1550px) {
@@ -516,7 +527,7 @@
 }
 @media only screen and (max-width: 600px) {
   .ed {
-    padding: 20px 40px 20px 5px;
+    padding: 250px 40px 20px 5px;
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 900px) {
