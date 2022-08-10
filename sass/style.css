@@ -313,13 +313,13 @@
   height: -moz-fit-content;
   height: fit-content;
   background-color: #ECE6F9;
-  border-radius: 30px;
   padding-left: 50px;
 }
 @media only screen and (max-width: 1550px) {
   #about .skills {
     font-size: 28px;
     float: left;
+    border-radius: 30px;
   }
 }
 @media only screen and (max-width: 1235px) {
@@ -342,6 +342,7 @@
     height: fit-content;
     background-color: #ECE6F9;
     float: right;
+    border-radius: 30px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -359,6 +360,7 @@
     width: 650px;
     font-size: 34px;
     float: left;
+    border-radius: 30px;
   }
 }
 #about li {
@@ -368,7 +370,7 @@
 }
 @media only screen and (max-width: 600px) {
   #about li {
-    font-size: 15px;
+    font-size: 8px;
   }
 }
 @media only screen and (max-width: 900px) {
@@ -425,7 +427,6 @@
   height: -moz-fit-content;
   height: fit-content;
   background-color: #ECE6F9;
-  border-radius: 30px;
   padding: 20px 30px;
 }
 @media only screen and (max-width: 1550px) {
@@ -481,10 +482,9 @@
     height: -moz-fit-content;
     height: fit-content;
     background-color: #ECE6F9;
-    border-radius: 30px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
   }
 }
 @media only screen and (min-width: 1800px) {
@@ -507,7 +507,7 @@
 }
 @media only screen and (max-width: 600px) {
   .ed {
-    padding: 270px 40px 20px 5px;
+    padding: 400px 40px 30px 5px;
   }
 }
 @media only screen and (max-width: 900px) {
@@ -523,6 +523,11 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+@media only screen and (max-width: 600px) {
+  #contact {
+    padding-top: 30px;
+  }
+}
 @media only screen and (max-width: 1235px) {
   #contact {
     padding-top: 200px;
@@ -533,38 +538,12 @@
     padding-top: 190px;
   }
 }
-#contact h2 {
-  font-weight: bold;
-  text-align: center;
-  color: #33312C;
-}
 @media only screen and (max-width: 600px) {
   #contact h2 {
-    font-size: 30px;
-  }
-}
-@media only screen and (max-width: 900px) {
-  #contact h2 {
-    font-size: 35px;
-  }
-}
-@media only screen and (max-width: 1235px) {
-  #contact h2 {
-    font-size: 40px;
-    padding-top: 100px;
-  }
-}
-@media only screen and (max-width: 1550px) {
-  #contact h2 {
-    font-size: 40px;
-    padding-top: 300px;
-  }
-}
-@media only screen and (min-width: 1800px) {
-  #contact h2 {
-    font-size: 48;
-    padding: 100px;
+    font-size: 20px;
+    font-weight: bold;
     text-align: center;
+    color: #33312C;
   }
 }
 #contact form input {
@@ -621,22 +600,15 @@
   font-weight: 500;
   border-radius: 10px;
 }
-#contact form #btn {
-  padding: 4% 30%;
+@media only screen and (max-width: 600px) {
+  #contact form button {
+    padding: 8px 20px;
+    font-size: 10px;
+  }
 }
 @media only screen and (max-width: 600px) {
   #contact form #btn {
-    padding: 20px 20px;
-  }
-}
-@media only screen and (max-width: 900px) {
-  #contact form #btn {
-    padding: 25px 70px;
-  }
-}
-@media only screen and (max-width: 1235px) {
-  #contact form #btn {
-    padding: 25px 90px;
+    padding: 20px 15px;
   }
 }
 #contact .socials {
@@ -647,28 +619,14 @@
 }
 @media only screen and (max-width: 600px) {
   #contact .socials {
-    padding-top: 30px;
+    padding-top: 10px;
   }
-}
-#contact .socials p {
-  color: #CB9509;
-  font-weight: 600;
-  font-size: 30px;
-  text-align: center;
 }
 @media only screen and (max-width: 600px) {
   #contact .socials p {
-    font-size: 20px;
-  }
-}
-@media only screen and (max-width: 900px) {
-  #contact .socials p {
-    font-size: 24px;
-  }
-}
-@media only screen and (max-width: 1235px) {
-  #contact .socials p {
-    font-size: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #CB9509;
   }
 }
 #contact .socials li {
@@ -676,56 +634,29 @@
   display: inline-block;
   padding: 20px;
 }
-#contact .socials img {
-  width: 50px;
-  height: 50px;
+@media only screen and (max-width: 600px) {
+  #contact .socials li {
+    padding: 5px;
+  }
 }
 @media only screen and (max-width: 600px) {
   #contact .socials img {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
   }
-}
-@media only screen and (max-width: 900px) {
-  #contact .socials img {
-    width: 25px;
-    height: 25px;
-  }
-}
-@media only screen and (max-width: 1235px) {
-  #contact .socials img {
-    width: 25px;
-    height: 25px;
-  }
-}
-#contact .socials h5 {
-  color: #33312C;
-  font-size: 24px;
-  text-align: center;
 }
 @media only screen and (max-width: 600px) {
   #contact .socials h5 {
-    font-size: 15px;
+    font-size: 12px;
+    color: #33312C;
+    text-align: center;
   }
-}
-@media only screen and (max-width: 900px) {
-  #contact .socials h5 {
-    font-size: 18px;
-  }
-}
-#contact .socials #copy {
-  font-size: 15px;
-  text-align: right;
-  color: #33312C;
 }
 @media only screen and (max-width: 600px) {
   #contact .socials #copy {
-    font-size: 8px;
-  }
-}
-@media only screen and (max-width: 900px) {
-  #contact .socials #copy {
-    font-size: 10px;
+    font-size: 6px;
+    text-align: right;
+    color: #33312C;
   }
 }
 #contact .socials #pad {
